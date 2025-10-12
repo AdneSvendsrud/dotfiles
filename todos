@@ -1,0 +1,13 @@
+
+.gitconfig.local
+```
+[user]
+    signingkey = YOUR_MACHINE_SPECIFIC_GPG_KEY
+```
+
+.gitconfig
+```
+[include]
+    path = /path/to/.gitconfig.shared
+    path = ~/.gitconfig.local
+```
