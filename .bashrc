@@ -12,4 +12,6 @@ HISTFILESIZE=20000
 
 alias devrun='./gradlew bootRun -Dspring.profiles.active=dev'
 
+export PATH="$HOME/dotfiles/scripts:$PATH"
+
 bind "set completion-ignore-case on"
