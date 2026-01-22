@@ -19,3 +19,4 @@ please() {
   sudo $(history -p !!)
 }
 alias hf='eval "$(history | fzf | sed "s/ *[0-9]* *//")"'
+alias lzg='lazygit'
