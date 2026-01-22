@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ -n "$TMUX" ]; then
+	exit 0
+fi
+
+cat /home/user/kartverket/Notes/todos
+
+if [ "$(date +%u)" -eq 1 ]; then
+  echo -e "\e[43m\e[31mDet er mandag! Det betyr parprogging!\e[0m"
+  echo
+  python3 ~/kartverket/parprogging.py
+fi
+
