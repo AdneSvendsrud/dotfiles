@@ -11,6 +11,7 @@ gcm() { git commit --message "$*"; }
 alias gp='git push'
 alias gs='git status'
 alias gu='git pull'
+alias gupr='git remote update origin --prune'
 
 alias '..'='cd ..'
 
